@@ -1,6 +1,6 @@
 # Berry Playground
 
-Dec 4, 2020
+Dec 4, 2022
 
 This will be the repo for Berry Enthusiasts (specifically Tasmota Berry) to share the code, drivers, apps, and experience they have developed with the community. 
 
