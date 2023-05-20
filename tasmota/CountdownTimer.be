@@ -18,9 +18,7 @@ def countdown(cmd, idx, payload, payload_json)
 			tasmota.set_timer(1000,deccounter,"deccounter")
 		end
 	end
-	if payload == ""
-		print(count)
-	else
+	if payload != ""
 		count = int(payload)
 		deccounter()
 	end
