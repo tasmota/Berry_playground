@@ -1,6 +1,6 @@
 # Berry Playground
 
-This repo and the corresponding [dicussions](https://github.com/tasmota/Berry_playground/discussions) have been created to help Tasmota Berry code developers.
+This repo and the corresponding [discussions](https://github.com/tasmota/Berry_playground/discussions) have been created to help Tasmota Berry code developers.
 
 ## Discussions
 
@@ -35,7 +35,7 @@ Each README.md file of a contribution (folder) with contain a link so you can do
 
 If you want to make a contribution (i.e. a folder of code) then follow these steps
 
-1. Start a discussion topic in the [dicussions](https://github.com/tasmota/Berry_playground/discussions) category corresponding to the primary subfolder where you think your contribution will be best placed.
+1. Start a discussion topic in the [discussions](https://github.com/tasmota/Berry_playground/discussions) category corresponding to the primary subfolder where you think your contribution will be best placed.
 2. Fork the repo and add your folder under the appropriate primary subfolder (see above) 
 3. Make sure your folder adhears to the guide below
 4. Push your fork to your github account
