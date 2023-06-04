@@ -6,7 +6,7 @@
 
 [as a be file ](MQTTSubscribe.be)
 
-```
+```javascript
 import json
 import string
 import mqtt
