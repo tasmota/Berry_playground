@@ -1,6 +1,7 @@
 # Berry Playground
 
 This repo and the corresponding [discussions](https://github.com/tasmota/Berry_playground/discussions) have been created to help Tasmota Berry code developers.
+This repo is in its infancy so not surprisingly there is not a lot of contributions yet.  This is where you come in!
 
 ## Discussions
 
@@ -29,7 +30,7 @@ The repo consists of five primary subfolders of contritutions.  Within each are 
 
 ### Downloading 
 
-Each README.md file of a contribution (folder) with contain a link so you can download directly the contribution folder without having to clone the whole repo.
+Each README.md file of a contribution (folder) should contain a link so you can download directly the contribution folder without having to clone the whole repo.  
 
 ### Contributing
 
@@ -49,7 +50,7 @@ your contributed folder needs to have a README.md file
   
   in the README.md file you need at least
   
-  * a link to download your folder
+  * a link to download your folder.  [see how](https://github.com/tasmota/Berry_playground/discussions/13)
   * a clear explanation of the files in your contribution and how to use them
   * a link back to the parent README.md file  `[return](../README.md)`
 
