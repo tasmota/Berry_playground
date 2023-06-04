@@ -1,7 +1,8 @@
 # Berry Playground
 
 This repo and the corresponding [discussions](https://github.com/tasmota/Berry_playground/discussions) have been created to help Tasmota Berry code developers.
-This repo is in its infancy so not surprisingly there is not a lot of contributions yet.  This is where you come in!
+
+The repo is in its infancy (6/4/23) so not surprisingly there are not a lot of contributions yet.  This is where you come in!
 
 ## Discussions
 
@@ -20,7 +21,7 @@ Alternatively you might try
 
 ### Repo Main Folders
 
-The repo consists of five primary subfolders of contritutions.  Within each are folders of contributions each containing a README.md file explaining their content and now to use them.
+The repo consists of five primary subfolders of contributions.  Within each are folders of contributions each containing a README.md file explaining their content and now to use them.
 
 * [developer-tools](developer-tools/README.md)  -  any developer tools that help us to do tasmota berry coding.
 * [modules](modules/README.md) -  ready to go modules that can be downloaded and incorporated into an app or driver
@@ -37,10 +38,10 @@ Each README.md file of a contribution (folder) should contain a link so you can 
 If you want to make a contribution (i.e. a folder of code) then follow these steps
 
 1. Start a discussion topic in the [discussions](https://github.com/tasmota/Berry_playground/discussions) category corresponding to the primary subfolder where you think your contribution will be best placed.
-2. Fork the repo and add your folder under the appropriate primary subfolder (see above) 
-3. Make sure your folder adhears to the guide below
-4. Push your fork to your github account
-5. make a post with a link to your fork
+2. Fork the repo and add your folder under the appropriate primary subfolder (see above)  (6/4/23)
+3. Make sure your folder adheres to the guide below
+4. Push your fork to your GitHub account
+5. make a discussion post in the corresponding category with a link to your fork
 6. Once others have vetted your contribution (via the discussion) create a PR in issues
 7. Have the maintainers merge your PR (THANK YOU!) 
 
@@ -54,7 +55,7 @@ your contributed folder needs to have a README.md file
   * a clear explanation of the files in your contribution and how to use them
   * a link back to the parent README.md file  `[return](../README.md)`
 
-also edit the parent README.md file and add a linke to your README.md
+also edit the parent README.md file and add a link to your README.md
 
 `[my contribution](my-contribution-folder/README.md)`
 
