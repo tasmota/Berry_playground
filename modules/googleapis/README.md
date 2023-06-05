@@ -1,12 +1,12 @@
 # Google API usaged from Tasmote via Berry
 
-(Download this googleapis folder complete)[https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/modules/googleapis]
+[Download this googleapis folder complete](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/modules/googleapis)
 
 Originator: btsimonh
 
 Any and all contributions welcome without specific consultation.  I don't consider this module to be production quality.
 
-There is a (Discussion)[https://github.com/tasmota/Berry_playground/discussions/15] - a good place to make suggestions, observations, etc. - please note there it you use the code, and if so, what for?
+There is a [Discussion](https://github.com/tasmota/Berry_playground/discussions/15) - a good place to make suggestions, observations, etc. - please note there it you use the code, and if so, what for?
 
 
 ## Files in this folder relate to the use of Google APIs from Tasmota.

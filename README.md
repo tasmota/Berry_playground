@@ -68,6 +68,6 @@ https://berry.readthedocs.io/en/latest/
 
 ## Modules List
 
-### (Google APIs)[./googleapis]
+### [Google APIs](./googleapis)
 This module folder contains the basics for authenticating a google service account, and as an example if it's use, a prototype Google Drive class as a subfolder. 
 
