@@ -8,6 +8,6 @@ Feel free to add example usage for and google APIs in this folder.
 
 #### [gdrivepics.be](./gdrivepics.be)
 
-Grab pictures from a prototype modified webcam driver, and save them to Google Drive.  Uses bytes referencing native memory in Tas to grab image files as jpeg, and writed them to a subfolder of the shared folder in google drive.
+Grab pictures from a prototype modified webcam driver, and save them to Google Drive.  Uses bytes referencing native memory in Tas to grab image files as jpeg, and write them to a subfolder of the shared folder in google drive.
 
 Very prototype; may soon be updated to be a timelpase capture and  motion sensing capture in one.
