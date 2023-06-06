@@ -11,4 +11,11 @@ The google API documentation is not great - it's quite hard to find out how to u
 
 Grab pictures from a prototype modified webcam driver, and save them to Google Drive.  Uses bytes referencing native memory in Tas to grab image files as jpeg, and write them to a subfolder of the shared folder in google drive.
 
+Requires [this driver](https://github.com/btsimonh/Tasmota/blob/webcam2023/tasmota/tasmota_xdrv_driver/xdrv_99_esp32_webcamberry.ino) which I hope to PR to Tas soon.
+
+Features used:
+* google_drive readdir/mkdir/writefile - query and file fields, binary write from bytes
+* introspect/bytes from addr/len -> ismapped()=true
+* tasmota.cmd()
+
 Very prototype; may soon be updated to be a timelpase capture and  motion sensing capture in one.
