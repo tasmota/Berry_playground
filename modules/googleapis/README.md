@@ -47,6 +47,8 @@ Ensure that yout TAS is latest dev branch, and has at least:
 #### [googleoauth.be](./googleoauth.be)
 This provides the authorisation features.  Load the file into Berry.  Save your JSON key file to the TAS filesystem.
 
+* Stability: Fairly stable, pending feedback.
+
 Usage:
 
 Create an auth object using `var auth = google_oauth(<json filename>, <desired scope(s)>)` e.g.:
