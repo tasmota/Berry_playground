@@ -1,5 +1,8 @@
 # Google API usaged from Tasmote via Berry
 
+[return to modules](../README.md)
+[Home](../../README.md)
+
 [Download this googleapis folder complete](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/modules/googleapis)
 
 Originator: btsimonh

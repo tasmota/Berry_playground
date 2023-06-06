@@ -1,5 +1,8 @@
 ## Files in this folder relate to the use of Google Drive API from Tasmota.
 
+[return to googleapi](../README.md)
+[Home](../../README.md)
+
 The google API documentation is not great - it's quite hard to find out how to use it without using a library.
 
 **BEWARE - files written are OWNED b the service account. i.e. they are NOT 'in' your drive - they are in the service account's drive.  Hence if you remove them from your drive, they still exist...  and I don't know if as a user, you can delete them?**

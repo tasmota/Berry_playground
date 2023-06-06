@@ -1,8 +1,9 @@
-## Files in this folder relate to the use of Google API from Tasmota.
+## Files in this folder are random user examples relating to the use of Google API from Tasmota.
 
-The google API documentation is not great - it's quite hard to find out how to use it without using a library.
+[return to googleapi](../README.md)
+[Home](../../README.md)
 
-Feel free to add example usage for and google APIs in this folder.
+The google API documentation is not great - it's quite hard to find out how to use it without using a library.  So if you use some feature you think is useful for someone else, please contribute an example resulting from your hours of research to help others.
 
 ### Files:
 
