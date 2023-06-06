@@ -38,12 +38,14 @@ Each README.md file of a contribution (folder) should contain a link so you can 
 If you want to make a contribution (i.e. a folder of code) then follow these steps
 
 1. Start a discussion topic in the [discussions](https://github.com/tasmota/Berry_playground/discussions) category corresponding to the primary subfolder where you think your contribution will be best placed.
-2. Fork the repo and add your folder under the appropriate primary subfolder (see above)  (6/4/23)
-3. Make sure your folder adheres to the guide below
-4. Push your fork to your GitHub account
-5. make a discussion post in the corresponding category with a link to your fork
-6. Once others have vetted your contribution (via the discussion) create a PR in issues
-7. Have the maintainers merge your PR (THANK YOU!) 
+2. Fork the repo then clone your fork to your dev machine.
+3. Add your contribution folder under the appropriate primary subfolder (see above)
+4. Make sure to edit the parent README.md file with a link to you contribution README.md
+5. Make sure your folder adheres to the guide below
+6. Push your committed changes back to your fork at your GitHub account
+7. make a discussion post in the corresponding category with a link to your Github fork
+8. Once others have vetted your contribution (via the discussion) create a PR in issues of your fork
+9. Have the maintainers merge your PR (THANK YOU!) 
 
 **Folder Guide**
 
@@ -54,8 +56,9 @@ your contributed folder needs to have a README.md file
   * a link to download your folder.  [see how](https://github.com/tasmota/Berry_playground/discussions/13)
   * a clear explanation of the files in your contribution and how to use them
   * a link back to the parent README.md file  `[return](../README.md)`
+  * for code blocks there is no Berry language syntax highlighting but if you choose ` ```javascript ` you get some appropriate highlighting
 
-also edit the parent README.md file and add a link to your README.md
+also edit the parent directory README.md file and add a link to your README.md
 
 `[my contribution](my-contribution-folder/README.md)`
 
