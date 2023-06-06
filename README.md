@@ -62,7 +62,10 @@ also edit the parent README.md file and add a link to your README.md
 
 ## Other resources
 
-[Tas Berry docs](https://tasmota.github.io/docs/Berry/)
-[Berry Docs](https://berry.readthedocs.io/en/latest/)
-[**Berry Wiki**](https://github.com/berry-lang/berry/wiki)
+[Tas Berry docs - https://tasmota.github.io/docs/Berry/](https://tasmota.github.io/docs/Berry/)
+
+[Berry Docs - https://berry.readthedocs.io/en/latest/](https://berry.readthedocs.io/en/latest/)
+
+[**Berry Wiki** - https://github.com/berry-lang/berry/wiki](https://github.com/berry-lang/berry/wiki)
+
 
