@@ -14,6 +14,8 @@ The google API documentation is not great - it's quite hard to find out how to u
 #### [gdrive.be](./gdrive.be)
 This provides the Google Drive features.  Load the file into Berry.
 
+* Stability: unstable, pending discussion.  Expect changes
+
 Consider this prototype, suiting my use case of creating folders and files within a shared folder of my personal GDrive for the purpose of uploading timelapse images and motion detected images from a modified webcam driver.  Also as a full example of googleoauth use.
 
 TODO: 
