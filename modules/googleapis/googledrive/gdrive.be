@@ -64,9 +64,9 @@ class google_drive
     #print('resp map ' .. m)
     if r != 204 # note google returns 'No Content' if delete success, and body of resp is empty.
       print('delete failed ' .. r .. s)
-      return true
+      return false
     end
-    return false
+    return true
   end
 
   def mkdir(infolderid, name)
