@@ -71,9 +71,3 @@ also edit the parent directory README.md file and add a link to your README.md
 
 [**Berry Wiki** - https://github.com/berry-lang/berry/wiki](https://github.com/berry-lang/berry/wiki)
 
-
-## Modules List
-
-### [Google APIs](./modules/googleapis)
-This module folder contains the basics for authenticating a google service account, and as an example if it's use, a prototype Google Drive class as a subfolder. 
-
