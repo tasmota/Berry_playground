@@ -125,7 +125,7 @@ class google_drive
       return resp
     else
       print('file create failed' .. r .. s)
-      return resp
+      return s
     end
   end
   
@@ -192,7 +192,7 @@ class google_drive
   def cleanservicefiles(confirm)
     # find all files which are owned by the service account, and in the root drive.
     # file in a user's folder are not in the root drive, unless deleted by the user.
-    var resp = gdrive.readdir(nil, "%27me%27%20in%20owners%20and%20%27root%27%20in%20parents", "files(id,shared,name,kind,mimeType,parents,ownedByMe)")
+    var resp = self.readdir(nil, "%27me%27%20in%20owners%20and%20%27root%27%20in%20parents", "files(id,shared,name,kind,mimeType,parents,ownedByMe)")
     if resp.contains('files')
       var files = resp['files']
       var deleted = 0
@@ -204,7 +204,7 @@ class google_drive
           if !confirm
             print('would delete ' .. file['name'])
           else
-            resp = gdrive.delete(file['id'])
+            resp = self.delete(file['id'])
             print('deleted ' .. file['name'])
             deleted = deleted + 1
           end
