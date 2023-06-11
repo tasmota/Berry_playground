@@ -20,7 +20,7 @@ class gdrivetest
     # only create a new gdrive class if we don't have one
     if !global.gdrive
       var driveauth = google_oauth("/google.json", "https://www.googleapis.com/auth/drive");
-      global.gdrive = google_drive(auth)
+      global.gdrive = google_drive(driveauth)
       print('created new gdrive class')
     else
       print('use existing gdrive class')
@@ -56,7 +56,7 @@ class gdrivetest
     var pageToken = nil
     var pageSize = 4
     while count < maxcount
-      var resp = gdrive.readdir(nil, nil, "files(id,shared,name,kind,mimeType,parents,ownedByMe)", pageSize, pageToken)
+      var resp = global.gdrive.readdir(nil, nil, "files(id,shared,name,kind,mimeType,parents,ownedByMe)", pageSize, pageToken)
       var files = resp['files']
       if !size(files)
         break
@@ -92,7 +92,7 @@ class gdrivetest
     var pageSize = 4
     self.foldermap = {}
     while count < maxcount
-      var resp = gdrive.readdir(nil, "mimeType%20=%20%27application/vnd.google-apps.folder%27", "files(id,shared,name,kind,mimeType,parents,ownedByMe)", pageSize, pageToken)
+      var resp = global.gdrive.readdir(nil, "mimeType%20=%20%27application/vnd.google-apps.folder%27", "files(id,shared,name,kind,mimeType,parents,ownedByMe)", pageSize, pageToken)
       var files = resp['files']
       if !size(files)
         break
@@ -122,7 +122,7 @@ class gdrivetest
   end
 
   def mkdirtest(name)
-    var newfolderid = gdrive.mkdir(my_folder_id, name)
+    var newfolderid = global.gdrive.mkdir(my_folder_id, name)
     if newfolderid
       print('mkdir ' .. name .. ' success')
     end
@@ -130,7 +130,7 @@ class gdrivetest
   
   def finddirtest(name)
     print('find folder id for ' .. name)
-    var folders = gdrive.readdir(shared_folder_id, "name%20=%20%27" .. name .. "%27", "files(id)")
+    var folders = global.gdrive.readdir(my_folder_id, "name%20=%20%27" .. name .. "%27", "files(id)")
     print(folders)
     var id = nil
     if folders && folders['files']
@@ -170,17 +170,17 @@ class gdrivetest
       return
     end
     if self.teststep == 3
-      print('search for folder testfolder')
       var id = self.finddirtest('testfolder')
       if id
         print('write testfolder/mytestfile.txt')
-        var resp = gdrive.write(id, 'mytestfile.txt', "text or bytes")
+        var resp = global.gdrive.write(id, 'mytestfile.txt', "text or bytes")
         print(resp)
         print('read folder testfolder')
-        resp = gdrive.readdir(id)
+        resp = global.gdrive.readdir(id)
         print(resp)
+      else
+        print('testfolder not found')
       end
-      print('check your google drive for the new file testfolder/mytestfile.txt')
       self.teststep = 4
       return
     end
@@ -194,7 +194,7 @@ class gdrivetest
   end
 
   def clean(confirm)
-    gdrive.cleanservicefiles(confirm)
+    global.gdrive.cleanservicefiles(confirm)
     if !confirm
       print('if the files to be deleted look correct, use gtest.clean(true) to delete them')
       print('THIS WILL DELETE ALL UNUSED SERVICE OWNED FILES\n - YOU MAY WISH TO REVIEW THE CODE FIRST\n ONLY USE FOR SERVICE ACCOUNTS DEDICATED TO TASMOTA PURPOSE')
