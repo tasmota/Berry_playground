@@ -4,6 +4,8 @@
 [Home](../../README.md)
 
 [Download this googleapis folder complete](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/modules/googleapis)
+For [Questions and Discussion about this module](https://github.com/tasmota/Berry_playground/discussions/15) see this topic
+
 
 Originator: btsimonh, guidance/tas-dev by s-hadinger
 
