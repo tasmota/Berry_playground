@@ -7,6 +7,8 @@
 
 Originator: btsimonh
 
+For [Questions and Discussion about this module](https://github.com/tasmota/Berry_playground/discussions/22) see this topic
+
 Tas/Berry/Other features used:
 * Tas filesystem
 
@@ -37,14 +39,13 @@ zap(folder, true) - to get more feedback in logs
 
 #### [testzap.be](./testzap.be)
 
-Creates some folders and files and then zpa them.
+Creates some folders and files and then zap them.
 
-Example of usage of path.mkdir() and path.rmdir() 
+Example of usage of path.mkdir() and path.rmdir(), plus other file features.
 
 
 ### Acknowledgements
 
-Me.
 
 ### Alternative approaches
 
