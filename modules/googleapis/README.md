@@ -5,6 +5,8 @@
 
 [Download this googleapis folder complete](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/modules/googleapis)
 
+[Questions and Discussion about this module](https://github.com/tasmota/Berry_playground/discussions/15)
+
 Originator: btsimonh, guidance/tas-dev by s-hadinger
 
 Tas/Berry/Other features used:
