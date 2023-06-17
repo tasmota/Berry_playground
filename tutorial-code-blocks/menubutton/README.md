@@ -1,11 +1,8 @@
 # Menu Buttons examples
 
-[return to tutorial-code-blocks](../README.md)
+[return to tutorial-code-blocks](../README.md) - [home](/README.md)
 
-[home](/README.md)
-
-[download all of menubutton](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/tutorial-code-blocks/menubutton)
-
+[Discussion about menubutton](https://github.com/tasmota/Berry_playground/discussions/23) - [download all of menubutton](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/tutorial-code-blocks/menubutton)
 
 ## [weblinkbutton.be](weblinkbutton.be)
 
