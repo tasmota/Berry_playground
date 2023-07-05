@@ -14,11 +14,9 @@ Here it should be shown:
 Let us define a simple class named Test
 
 ```vb
-# our test class
 class Test
    var name
 end
-
 ```
 and do some assignments.
 
@@ -73,10 +71,9 @@ All members of the json-string exists also as member in the DynClass-instance 't
 ***The result: Dynclass can be used as a JSON object mapper.***
 
 
-
 [return](../README.md)
 
-[download all tutorials and code blocks](../../tutorial-code-blocks)
+[download all tutorials and code blocks](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/tutorial-code-blocks)
 
 
 
