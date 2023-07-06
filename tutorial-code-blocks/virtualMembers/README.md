@@ -75,6 +75,8 @@ All members of the json-string exists also as member in the DynClass-instance 't
 
 [download all tutorials and code blocks](https://download-directory.github.io/?url=https://github.com/tasmota/Berry_playground/tree/main/tutorial-code-blocks)
 
+[virtual members discussion](https://github.com/tasmota/Berry_playground/discussions/26)
+
 
 
 
