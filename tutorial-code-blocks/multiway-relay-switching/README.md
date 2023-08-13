@@ -76,6 +76,7 @@ I have built a custom irrigation control box to control 4 irrigation zone valves
 Relays 1-4 control the zone valves.
 Relay 5 controls the 24 VAC transformer which energizes the zone valve solenoids.
 Even when not under load, the 24 VAC transformer gets warm, and I want to keep that transformer powered off until it is actually needed in order to reduce heat buildup inside the control box and help protect the other components and extend their lifespan. Thus the need for the multi-way switching logic.
+![IMG_20230805_110055HALF](https://github.com/LucidEye/Berry_playground/assets/12551280/2a1d3379-43db-416a-99d9-0c8b31c4c603)
 
 
 Another scenario I might use this for in the future is controlling an evaporative cooler (swamp cooler).
